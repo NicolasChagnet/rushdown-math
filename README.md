@@ -1,6 +1,8 @@
 # rushdown-math
 
-Render LaTeX math in a rushdown document as KaTeX markup. Formulas are typeset by [katex-rs](https://github.com/katex-rs/katex-rs), a port of [KaTeX](https://katex.org) written in Rust, while the document is rendered.
+This is an extension for the [rushdown](https://crates.io/crates/rushdown) crate.
+
+Render LaTeX math in a markdown document as KaTeX markup. Formulas are typeset by [katex-rs](https://github.com/katex-rs/katex-rs), a port of [KaTeX](https://katex.org) written in Rust, while the document is rendered.
 
 Three notations are recognised:
 - `$…$` for inline formula,
