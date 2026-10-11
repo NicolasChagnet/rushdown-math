@@ -1,0 +1,15 @@
+[package]
+name = "rushdown-math"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+description = "Render LaTeX math in rushdown documents as KaTeX markup."
+license = "MIT"
+repository = "https://github.com/NicolasChagnet/rushdown-math"
+keywords = ["katex", "latex", "math", "markdown"]
+categories = ["text-processing", "mathematics"]
+documentation = "https://docs.rs/rushdown-math"
+
+[dependencies]
+katex-rs = "0.3"
+rushdown = "0.18.0"
